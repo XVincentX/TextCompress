@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextCompress", "TextCompress\TextCompress.vcxproj", "{56A259C8-94F6-4735-81E4-F8FBB7579BDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD} = {651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextCompressLib", "TextCompressLib\TextCompressLib.vcxproj", "{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Debug|Win32.Build.0 = Debug|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Release|Any CPU.ActiveCfg = Release|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Release|Win32.ActiveCfg = Release|Win32
+		{56A259C8-94F6-4735-81E4-F8FBB7579BDE}.Release|Win32.Build.0 = Release|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Debug|Win32.Build.0 = Debug|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Release|Win32.ActiveCfg = Release|Win32
+		{651CE2A5-7EDE-42FC-82CB-E7E369F8CCBD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
